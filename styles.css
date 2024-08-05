@@ -1,27 +1,21 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
 #container {
-    display: inline; /* Ensure the container behaves like an inline element */
-    margin: 0; /* Remove margin to align with pseudo-elements */
-    padding: 10px; /* Optional: padding for better spacing */
-    position: relative;
+   margin: 20px;
 }
-
-#container::before,
-#container::after {
-    content: " ";
-    color: #f00; /* Red color */
-    font-size: 20px; /* Font size of 20px */
-    display: inline; /* Ensure pseudo-elements are inline with the container */
-}
-
 #container::before {
-    content: "Before Element "; /* Content to insert before the container */
+   content: "";
 }
 
 #container::after {
-    content: " After Element"; /* Content to insert after the container */
+   content: "";
+}
+#container::before {
+   content: "Before Element";
+   color: #f00;
+   font-size: 20px;
+}
+
+#container::after {
+   content: "After Element";
+   color: #f00;
+   font-size: 20px;
 }
