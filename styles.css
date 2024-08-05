@@ -19,7 +19,7 @@ body {
 }
 
 #container::before {
-    content: "Before  Element "; /* Content to insert before the container */
+    content: " Before  Element "; /* Content to insert before the container */
 }
 
 #container::after {
