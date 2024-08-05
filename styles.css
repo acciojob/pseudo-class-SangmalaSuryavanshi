@@ -19,9 +19,9 @@ body {
 }
 
 #container::before {
-    content: "Before content "; /* Content to insert before the container */
+    content: "Before  Element "; /* Content to insert before the container */
 }
 
 #container::after {
-    content: " After content"; /* Content to insert after the container */
+    content: " After Element"; /* Content to insert after the container */
 }
